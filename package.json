@@ -1,5 +1,22 @@
 {
-  "devDependencies": {
+  "name": "Cesar Portfolio",
+  "version": "1.0.0",
+  "description": "A Site for Cesar's Work",
+  "scripts": {
+    "build-css": "tailwindcss build -i ./src/styles.css -o ./output.css",
+    "tailwind": "npx tailwindcss -i ./src/styles.css -o ./output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zar117/CesarPortfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zar117/CesarPortfolio/issues"
+  },
+  "homepage": "https://github.com/Zar117/CesarPortfolio#readme",
+  "dependencies": {
     "tailwindcss": "^3.0.24"
   }
 }

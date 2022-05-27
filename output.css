@@ -524,6 +524,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -542,6 +547,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(145 145 164 / var(--tw-text-opacity));
 }
 
+.text-selected-text {
+  --tw-text-opacity: 1;
+  color: rgb(163 163 255 / var(--tw-text-opacity));
+}
+
 .underline {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
@@ -551,6 +561,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   outline-style: solid;
 }
 
+.hover\:text-sm:hover {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .hover\:font-bold:hover {
   font-weight: 700;
 }
@@ -558,4 +573,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:text-selected-text:hover {
   --tw-text-opacity: 1;
   color: rgb(163 163 255 / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
